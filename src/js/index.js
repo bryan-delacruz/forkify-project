@@ -1,5 +1,5 @@
 import str from './models/Search';
-import {add,multiply,ID} from './views/SearchView';
+import {add as f1,multiply as f2,ID} from './views/SearchView';
 
-console.log(`Usando imported functions: ${add(ID,2)} y ${multiply(ID,2)} del view.
+console.log(`Usando imported functions: ${f1(ID,2)} y ${f2(ID,2)} del view.
 Del model => ${str}`);
