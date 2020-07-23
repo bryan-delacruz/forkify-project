@@ -1,0 +1,1 @@
+export default ' Estoy exportando un string.';
